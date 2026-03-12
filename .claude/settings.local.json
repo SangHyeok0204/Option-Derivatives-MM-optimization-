@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "mcp__ide__executeCode",
+      "Bash(dir \"C:\\\\Users\\\\adg01\\\\OneDrive\\\\바탕 화면\\\\Yonsei\\\\26-1 Yonsei\\\\Y-FoRM\\\\Y-FoRM 장플\\\\project1\")",
+      "Bash(pip show:*)",
+      "Bash(where python:*)",
+      "Bash(dir \"C:\\\\Python*\")",
+      "Bash(\"C:\\\\Users\\\\adg01\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\python.exe\" -c \"import struct; print\\(''Python 3.9:'', struct.calcsize\\(''P''\\) * 8, ''bit''\\)\")",
+      "Bash(\"C:\\\\Users\\\\adg01\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import struct; print\\(''Python 3.13:'', struct.calcsize\\(''P''\\) * 8, ''bit''\\)\")",
+      "Bash(dir:*)",
+      "Bash(\"C:\\\\Users\\\\adg01\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python36-32\\\\python.exe\" -c \"import struct; print\\(''Python 3.6-32:'', struct.calcsize\\(''P''\\) * 8, ''bit''\\)\")",
+      "Bash(\"C:\\\\Users\\\\adg01\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python36-32\\\\python.exe\" --version)",
+      "Bash(py -0p)",
+      "WebSearch",
+      "WebFetch(domain:www.python.org)",
+      "Bash(curl:*)",
+      "Bash(\"C:\\\\Users\\\\adg01\\\\Downloads\\\\python-3.9.13-32bit.exe\" /quiet InstallAllUsers=0 TargetDir=\"C:\\\\Python39-32\" Include_launcher=0 PrependPath=0)",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" --version)",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" -c \"import struct; print\\(struct.calcsize\\(''P''\\) * 8, ''bit''\\)\")",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" -m pip install --upgrade pip)",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" -m pip install PyQt5)",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" -c \"from PyQt5.QAxContainer import QAxWidget; print\\(''QAxWidget import successful''\\)\")",
+      "Bash(reg query \"HKEY_CLASSES_ROOT\\\\KHOPENAPI.KHOpenAPICtrl.1\")",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" -c \"\nfrom PyQt5.QAxContainer import QAxWidget\nfrom PyQt5.QtWidgets import QApplication\nimport sys\n\napp = QApplication\\(sys.argv\\)\nkiwoom = QAxWidget\\(''KHOPENAPI.KHOpenAPICtrl.1''\\)\nprint\\(''Kiwoom API object created successfully''\\)\nprint\\(''Connection status:'', kiwoom.dynamicCall\\(''GetConnectState\\(\\)''\\)\\)\n\")",
+      "Bash(\"C:\\\\Python39-32\\\\python.exe\" \"C:\\\\Users\\\\adg01\\\\OneDrive\\\\바탕 화면\\\\Yonsei\\\\26-1 Yonsei\\\\Y-FoRM\\\\Y-FoRM 장플\\\\project1\\\\test_elw_quote.py\")",
+      "Bash(cmd /c \"C:\\\\Python39-32\\\\python.exe\" \"C:\\\\Users\\\\adg01\\\\OneDrive\\\\바탕 화면\\\\Yonsei\\\\26-1 Yonsei\\\\Y-FoRM\\\\Y-FoRM 장플\\\\project1\\\\test_elw_quote.py\")",
+      "Bash(copy:*)",
+      "Bash(C:Python39-32python.exe C:Python39-32test_elw_quote.py)",
+      "Bash(\"C:/Python39-32/python.exe\" \"C:/Python39-32/test_elw_quote.py\")",
+      "Bash(\"C:/Python39-32/python.exe\" -m pip:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(c:/Python39-32/python.exe:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

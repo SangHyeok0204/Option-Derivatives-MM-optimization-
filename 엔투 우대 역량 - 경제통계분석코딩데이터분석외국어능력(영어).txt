@@ -1,0 +1,65 @@
+엔투 우대 역량 - 경제/통계분석/코딩/데이터분석/외국어능력(영어)
+
+
+readpoint-partners
+
+[Requirements]
+
+
+필수: Python 실무 역량 (pandas, 데이터 전처리, 시각화), Jupyter 기반 데이터 분석 경험
+AI 도구(ChatGPT, Claude 등) 활용 경험
+자기 주도적 학습·실행 태도
+퀀트 전략·팩터 모델링·백테스트 경험, Bloomberg Terminal 사용 경험, NLP·텍스트 센티먼트 분석 경험 우대
+금융공학·통계학·컴퓨터공학 전공 우대
+아시아·글로벌 금융시장에 대한 높은 관심사
+
+
+
+
+증권사 ELW LP 를 예로 들어보자.
+
+
+ELW는 증권사가 발행하고, 장내에서 유통하는 구조로 거래된다.
+
+이때 ELW LP 는 이런 ELW의 유동성을 위해 bid/ask 호가를 계속 제시해줘야하는 의무가 있다.
+
+이때, LP 의 수익원은 spread 로 버는 것이다.
+
+10000원에 팔게하고, 10005원에 살 수 있게 함으로써 만약 가격변동이 없고
+계속 이러한 상태로 거래된다면 1사이클이 돌 때 마다 5원씩 이득이므로, LP에게 좋은 상황이다.
+
+하지만, 기초자산의 변동성이 높으면, ELW가 호가를 대주는 것에 방향성이 생긴다.
+
+예를 들어, 삼전ELW 가 있을 때 삼전이 상승하면, elw도 같이상승하고, 이에 LP는 매수자들에게 계속 팔아야하므로
+
+삼전 ELW short 포지션물량이 많아짐. -> 일정 수준을 넘어가면 헷지를 해야함.
+
+
+
+
+현업 LP들은 보통
+ELW
++ KOSPI200 futures
++ underlying stock (기초자산)
+
+
+
+
+state:
+inventory
+delta
+gamma
+volatility
+spread
+
+
+action:
+1 hedge
+2 widen spread
+3 skew quote
+
+
+reward:
+spread revenue
+− hedge cost
+− inventory risk
