@@ -1,0 +1,27 @@
+# Data files
+crawling/data/*.csv
+
+# Result files
+simul/result/
+
+# Claude Code settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
